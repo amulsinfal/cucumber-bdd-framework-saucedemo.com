@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 25 03:38:08 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>123 seconds (123789 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product quantity is correct in the cart", "Cart Functionality"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product price in Product details page", "Product Details Verification"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can enter First Name, Last Name, and Zip Code", "Checkout Process"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify subtotal is displayed correctly", "Checkout Overview Page Validations"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product description is displayed", "Products Functionality"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify success message is shown after order completion", "Checkout Completion Page Validations"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can remove an item from the cart page", "Cart Functionality"</td>
+<td></td>
+<td>8</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify 'Continue Shopping' button redirects user back to Products Page", "Cart Functionality"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can navigate to cart page from Products page", "Cart Functionality"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Cancel button on overview page returns user to cart", "Checkout Overview Page Validations"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login with locked out user", "Login Functionality"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login with blank username and password", "Login Functionality"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify clicking product item title navigates to item detail page", "Products Functionality"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product price is correct in the cart", "Cart Functionality"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user is successfully logged out using the sidebar menu", "Logout Functionality"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify error messages when mandatory fields are missing", "Checkout Process"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Total is displayed correctly", "Checkout Overview Page Validations"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify cart badge shows correct item count after adding a product", "Products Functionality"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login with invalid username and password", "Login Functionality"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify logout button is visible in the sidebar menu", "Logout Functionality"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify error messages when mandatory fields are missing", "Checkout Process"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify a product is listed on the Products page", "Products Functionality"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product name in Product details page", "Product Details Verification"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify checkout button on cart page navigates to checkout step one", "Cart Functionality"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Cancel button navigates back to cart", "Checkout Process"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Back Home button redirects to inventory page", "Checkout Completion Page Validations"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product description in Product details page", "Product Details Verification"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify error messages when mandatory fields are missing", "Checkout Process"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product description is correct in the cart", "Cart Functionality"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product price is displayed", "Products Functionality"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Finish button completes the checkout process", "Checkout Overview Page Validations"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product and details are correctly displayed on overview page", "Checkout Overview Page Validations"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+<tr>
+<td title='runner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify tax is displayed correctly", "Checkout Overview Page Validations"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestNgRunner@304bb45b</td></tr>
+</table><p>
+</body>
+</html>

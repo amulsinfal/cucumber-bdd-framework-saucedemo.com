@@ -1,0 +1,12 @@
+# Java build output
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse specific
+.project
+.classpath
+.settings/
+.metadata/
