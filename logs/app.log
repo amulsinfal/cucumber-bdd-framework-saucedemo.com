@@ -1,425 +1,425 @@
-[INFO ] 2025-06-25 04:08:16.428 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:08:19.263 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:08:19.266 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:08:20.088 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:08:20.198 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:08:20.509 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:08:20.750 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:08:20.989 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:08:21.195 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:08:21.243 [main] pages.CartPage::isCartPageDisplayed::70 - Cart page is displayed: true
-[INFO ] 2025-06-25 04:08:21.469 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:08:22.935 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:08:22.936 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:08:23.544 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:08:23.618 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:08:23.948 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:08:24.200 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:08:24.378 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:08:24.548 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:08:24.646 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:08:24.739 [main] pages.CartPage::removeFromCart::87 - Removed product 'Sauce Labs Backpack' from cart.
-[INFO ] 2025-06-25 04:08:29.786 [main] pages.CartPage::isProductPresent::27 - Checked presence of product 'Sauce Labs Backpack': false
-[INFO ] 2025-06-25 04:08:30.229 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:08:31.601 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:08:31.602 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:08:32.316 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:08:32.588 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:08:32.852 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:08:33.021 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:08:33.248 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:08:33.392 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:08:33.507 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:08:33.552 [main] pages.CartPage::getProductDescription::124 - Product 'Sauce Labs Backpack' description: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[INFO ] 2025-06-25 04:08:33.801 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:08:35.449 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:08:35.449 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:08:36.078 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:08:36.230 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:08:36.558 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:08:36.849 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:08:37.076 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:08:37.261 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:08:37.369 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:08:37.435 [main] pages.CartPage::getProductPrice::145 - Product 'Sauce Labs Backpack' price: 29.99
-[INFO ] 2025-06-25 04:08:37.688 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:08:39.199 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:08:39.200 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:08:39.413 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:08:40.011 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:08:40.578 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:08:40.760 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:08:40.962 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:08:41.181 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:08:41.332 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:08:41.384 [main] pages.CartPage::getProductQuantity::162 - Product 'Sauce Labs Backpack' quantity: 1
-[INFO ] 2025-06-25 04:08:41.633 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:08:43.243 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:08:43.244 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:08:43.959 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:08:44.110 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:08:44.533 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:08:44.716 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:08:44.895 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:08:45.052 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:08:45.217 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:08:45.341 [main] pages.CartPage::clickContinueShopping::179 - Clicked 'Continue Shopping' button.
-[INFO ] 2025-06-25 04:08:45.411 [main] pages.ProductsPage::isPageDisplayed::27 - Products page displayed: true
-[INFO ] 2025-06-25 04:08:45.630 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:08:47.105 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:08:47.106 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:08:47.753 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:08:47.930 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:08:48.280 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:08:48.512 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:08:48.692 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:08:48.814 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:08:48.925 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:08:49.085 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:08:49.135 [main] pages.CheckoutPage::isPageDisplayed::26 - Checkout Page displayed: true
-[INFO ] 2025-06-25 04:08:49.450 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:08:51.040 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:08:51.041 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:08:51.621 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:08:51.759 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:08:52.019 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:08:52.190 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:08:52.337 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:08:52.461 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:08:52.568 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:08:52.663 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:08:52.816 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:08:52.948 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:08:53.095 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:08:53.243 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:08:53.288 [main] pages.CheckoutOverviewPage::isPageDisplayed::29 - Checkout Overview page displayed: true
-[INFO ] 2025-06-25 04:08:53.709 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:08:55.033 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:08:55.034 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:08:55.628 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:08:55.706 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:08:56.001 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:08:56.212 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:08:56.427 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:08:56.635 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:08:56.726 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:08:56.817 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:08:56.930 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: 
-[INFO ] 2025-06-25 04:08:57.077 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:08:57.210 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:08:57.303 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:08:57.345 [main] pages.CheckoutPage::getErrorMessage::70 - Captured error message: Error: First Name is required
-[INFO ] 2025-06-25 04:08:57.637 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:08:59.013 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:08:59.015 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:08:59.646 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:08:59.777 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:00.080 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:00.311 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:00.504 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:00.686 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:00.817 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:00.920 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:01.068 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:09:01.183 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: 
-[INFO ] 2025-06-25 04:09:01.303 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:09:01.403 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:09:01.457 [main] pages.CheckoutPage::getErrorMessage::70 - Captured error message: Error: Last Name is required
-[INFO ] 2025-06-25 04:09:01.673 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:03.021 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:03.022 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:03.150 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:03.670 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:03.990 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:04.206 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:04.418 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:04.555 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:04.682 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:04.792 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:04.939 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:09:05.083 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:09:05.211 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 
-[INFO ] 2025-06-25 04:09:05.313 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:09:05.372 [main] pages.CheckoutPage::getErrorMessage::70 - Captured error message: Error: Postal Code is required
-[INFO ] 2025-06-25 04:09:05.602 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:07.109 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:07.110 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:07.774 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:07.834 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:08.232 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:08.805 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:09.020 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:09.173 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:09.308 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:09.419 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:09.529 [main] pages.CheckoutPage::clickCancel::91 - Clicked Cancel button on Checkout Page
-[INFO ] 2025-06-25 04:09:09.565 [main] pages.CartPage::isCartPageDisplayed::70 - Cart page is displayed: true
-[INFO ] 2025-06-25 04:09:09.808 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:11.321 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:11.321 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:11.928 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:12.004 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:12.315 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:12.544 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:12.764 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:12.908 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:13.028 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:13.157 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:13.282 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:09:13.397 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:09:13.510 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:09:13.615 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:09:13.711 [main] pages.CheckoutOverviewPage::clickFinish::121 - Clicked Finish button.
-[INFO ] 2025-06-25 04:09:13.745 [main] pages.CheckoutCompletePage::getSuccessMessage::56 - Success message text: Thank you for your order!
-[INFO ] 2025-06-25 04:09:13.962 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:15.453 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:15.453 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:16.100 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:16.165 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:16.456 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:16.658 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:16.879 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:17.032 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:17.166 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:17.296 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:17.462 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:09:17.602 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:09:17.724 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:09:17.826 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:09:17.929 [main] pages.CheckoutOverviewPage::clickFinish::121 - Clicked Finish button.
-[INFO ] 2025-06-25 04:09:18.045 [main] pages.CheckoutCompletePage::clickBackHome::72 - Clicked 'Back Home' button.
-[INFO ] 2025-06-25 04:09:18.097 [main] pages.ProductsPage::isPageDisplayed::27 - Products page displayed: true
-[INFO ] 2025-06-25 04:09:18.331 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:19.742 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:19.742 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:20.369 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:20.449 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:20.743 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:20.991 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:21.216 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:21.368 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:21.497 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:21.616 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:21.748 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:09:21.865 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:09:21.990 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:09:22.130 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:09:22.146 [main] pages.CheckoutOverviewPage::isProductPresent::41 - Product 'Sauce Labs Backpack' present in overview: true
-[INFO ] 2025-06-25 04:09:22.193 [main] pages.CheckoutOverviewPage::getProductPrice::65 - Product 'Sauce Labs Backpack' price: 29.99
-[INFO ] 2025-06-25 04:09:22.220 [main] pages.CheckoutOverviewPage::getProductQuantity::77 - Product 'Sauce Labs Backpack' quantity: 1
-[INFO ] 2025-06-25 04:09:22.463 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:23.885 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:23.886 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:24.520 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:24.627 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:24.926 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:25.126 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:25.280 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:25.403 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:25.511 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:25.645 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:25.776 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:09:25.889 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:09:26.010 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:09:26.143 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:09:26.184 [main] pages.CheckoutOverviewPage::getTaxInformation::110 - Tax: 2.40
-[INFO ] 2025-06-25 04:09:26.424 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:27.770 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:27.771 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:28.397 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:28.472 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:28.742 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:28.944 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:29.141 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:29.293 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:29.413 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:29.525 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:29.683 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:09:29.792 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:09:29.912 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:09:30.025 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:09:30.082 [main] pages.CheckoutOverviewPage::getSubTotalInformation::88 - Subtotal: 29.99
-[INFO ] 2025-06-25 04:09:30.313 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:31.670 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:31.671 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:31.778 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:32.456 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:32.721 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:32.898 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:33.093 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:33.230 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:33.323 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:33.413 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:33.542 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:09:33.653 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:09:33.766 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:09:33.865 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:09:33.916 [main] pages.CheckoutOverviewPage::getTotalInformation::99 - Total: 32.39
-[INFO ] 2025-06-25 04:09:34.212 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:35.510 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:35.511 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:36.109 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:36.188 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:36.548 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:36.738 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:36.956 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:37.099 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:37.228 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:37.332 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:37.477 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:09:37.606 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:09:37.740 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:09:37.849 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:09:37.955 [main] pages.CheckoutOverviewPage::clickCancel::131 - Clicked Cancel button.
-[INFO ] 2025-06-25 04:09:37.993 [main] pages.ProductsPage::isPageDisplayed::27 - Products page displayed: true
-[INFO ] 2025-06-25 04:09:38.267 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:39.523 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:39.523 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:40.191 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:40.360 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:40.716 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:40.898 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:41.094 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:41.241 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:09:41.352 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
-[INFO ] 2025-06-25 04:09:41.457 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
-[INFO ] 2025-06-25 04:09:41.616 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
-[INFO ] 2025-06-25 04:09:41.732 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
-[INFO ] 2025-06-25 04:09:41.843 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
-[INFO ] 2025-06-25 04:09:41.954 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
-[INFO ] 2025-06-25 04:09:42.083 [main] pages.CheckoutOverviewPage::clickFinish::121 - Clicked Finish button.
-[INFO ] 2025-06-25 04:09:42.127 [main] pages.CheckoutCompletePage::isPageDisplayed::26 - Checkout Complete page displayed: true
-[INFO ] 2025-06-25 04:09:42.353 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:43.813 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:43.813 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:44.400 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:44.456 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:44.752 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:44.993 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:45.196 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:45.257 [main] pages.ProductsPage::isPageDisplayed::27 - Products page displayed: true
-[INFO ] 2025-06-25 04:09:45.506 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:46.939 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:46.939 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:47.076 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:47.621 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:48.045 [main] pages.LoginPage::enterUsername::35 - Entered username: invalid_user
-[INFO ] 2025-06-25 04:09:48.221 [main] pages.LoginPage::enterPassword::46 - Entered password: wrong_pass
-[INFO ] 2025-06-25 04:09:48.321 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:48.357 [main] pages.LoginPage::getErrorMessage::66 - Captured login error message: Epic sadface: Username and password do not match any user in this service
-[INFO ] 2025-06-25 04:09:48.567 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:49.867 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:49.867 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:50.484 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:50.611 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:50.920 [main] pages.LoginPage::enterUsername::35 - Entered username: locked_out_user
-[INFO ] 2025-06-25 04:09:51.115 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:51.264 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:51.323 [main] pages.LoginPage::getErrorMessage::66 - Captured login error message: Epic sadface: Sorry, this user has been locked out.
-[INFO ] 2025-06-25 04:09:51.597 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:53.000 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:53.003 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:53.588 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:53.769 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:54.016 [main] pages.LoginPage::enterUsername::35 - Entered username: 
-[INFO ] 2025-06-25 04:09:54.180 [main] pages.LoginPage::enterPassword::46 - Entered password: 
-[INFO ] 2025-06-25 04:09:54.313 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:54.350 [main] pages.LoginPage::getErrorMessage::66 - Captured login error message: Epic sadface: Username is required
-[INFO ] 2025-06-25 04:09:54.560 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:56.062 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:56.063 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:09:56.692 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:09:56.760 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:09:57.030 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:09:57.258 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:09:57.441 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:09:57.554 [main] pages.NavigationBar::clickMenuButton::24 - Clicked Menu button
-[INFO ] 2025-06-25 04:09:58.098 [main] pages.NavigationBar::isLogoutLinkDisplayed::44 - Logout link displayed: true
-[INFO ] 2025-06-25 04:09:58.304 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:09:59.858 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:09:59.860 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:10:00.488 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:10:00.551 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:10:00.929 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:10:01.133 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:10:01.353 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:10:01.487 [main] pages.NavigationBar::clickMenuButton::24 - Clicked Menu button
-[INFO ] 2025-06-25 04:10:02.160 [main] pages.NavigationBar::clickLogoutLink::34 - Clicked Logout link
-[INFO ] 2025-06-25 04:10:02.194 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:10:02.441 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:10:03.930 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:10:03.931 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:10:04.543 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:10:04.606 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:10:04.860 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:10:05.059 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:10:05.221 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:10:05.378 [main] pages.ProductsPage::clickProductName::51 - Clicked product name: Sauce Labs Backpack
-[INFO ] 2025-06-25 04:10:05.428 [main] pages.ProductDetailPage::getProductName::34 - Product name: Sauce Labs Backpack
-[INFO ] 2025-06-25 04:10:05.651 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:10:07.022 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:10:07.023 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:10:07.160 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:10:07.694 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:10:08.076 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:10:08.259 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:10:08.442 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:10:08.599 [main] pages.ProductsPage::clickProductName::51 - Clicked product name: Sauce Labs Backpack
-[INFO ] 2025-06-25 04:10:08.647 [main] pages.ProductDetailPage::getProductDescription::45 - Product description: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[INFO ] 2025-06-25 04:10:08.863 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:10:10.287 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:10:10.287 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:10:10.422 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:10:10.973 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:10:11.296 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:10:11.573 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:10:11.776 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:10:11.935 [main] pages.ProductsPage::clickProductName::51 - Clicked product name: Sauce Labs Backpack
-[INFO ] 2025-06-25 04:10:11.985 [main] pages.ProductDetailPage::getProductPrice::56 - Product price: 29.99
-[INFO ] 2025-06-25 04:10:12.285 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:10:13.576 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:10:13.578 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:10:14.202 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:10:14.279 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:10:14.541 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:10:14.725 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:10:14.914 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:10:15.004 [main] pages.ProductsPage::isProductPresent::39 - Product 'Sauce Labs Backpack' present on Products page: true
-[INFO ] 2025-06-25 04:10:15.303 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:10:16.754 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:10:16.754 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:10:16.871 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:10:17.515 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:10:17.829 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:10:18.018 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:10:18.241 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:10:18.400 [main] pages.ProductsPage::clickProductName::51 - Clicked product name: Sauce Labs Backpack
-[INFO ] 2025-06-25 04:10:18.443 [main] pages.ProductDetailPage::getProductName::34 - Product name: Sauce Labs Backpack
-[INFO ] 2025-06-25 04:10:18.662 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:10:20.129 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:10:20.129 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:10:20.233 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:10:20.805 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:10:21.105 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:10:21.360 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:10:21.570 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:10:21.660 [main] pages.ProductsPage::getProductDescription::62 - Description for 'Sauce Labs Backpack': carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[INFO ] 2025-06-25 04:10:22.203 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:10:23.517 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:10:23.517 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:10:23.667 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:10:24.268 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:10:24.642 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:10:24.820 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:10:24.965 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:10:25.036 [main] pages.ProductsPage::getProductPrice::74 - Price for 'Sauce Labs Backpack': 29.99
-[INFO ] 2025-06-25 04:10:25.384 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
-[INFO ] 2025-06-25 04:10:26.706 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
-[INFO ] 2025-06-25 04:10:26.706 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
-[INFO ] 2025-06-25 04:10:27.313 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
-[INFO ] 2025-06-25 04:10:27.501 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
-[INFO ] 2025-06-25 04:10:27.768 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
-[INFO ] 2025-06-25 04:10:27.970 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
-[INFO ] 2025-06-25 04:10:28.170 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
-[INFO ] 2025-06-25 04:10:28.289 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
-[INFO ] 2025-06-25 04:10:28.330 [main] pages.NavigationBar::getCartCount::55 - Cart badge count: 1
+[INFO ] 2025-06-25 06:44:22.459 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:44:26.544 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:44:26.552 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:44:27.481 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:44:27.776 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:44:28.158 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:44:28.471 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:44:28.783 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:44:29.091 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:44:29.165 [main] pages.CartPage::isCartPageDisplayed::70 - Cart page is displayed: true
+[INFO ] 2025-06-25 06:44:30.173 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:44:32.528 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:44:32.529 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:44:33.532 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:44:33.802 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:44:34.186 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:44:34.446 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:44:34.756 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:44:35.060 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:44:35.266 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:44:35.437 [main] pages.CartPage::removeFromCart::87 - Removed product 'Sauce Labs Backpack' from cart.
+[INFO ] 2025-06-25 06:44:40.501 [main] pages.CartPage::isProductPresent::27 - Checked presence of product 'Sauce Labs Backpack': false
+[INFO ] 2025-06-25 06:44:41.478 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:44:44.057 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:44:44.058 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:44:45.035 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:44:45.166 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:44:45.496 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:44:45.929 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:44:46.232 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:44:46.492 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:44:46.705 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:44:46.794 [main] pages.CartPage::getProductDescription::124 - Product 'Sauce Labs Backpack' description: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[INFO ] 2025-06-25 06:44:47.824 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:44:50.271 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:44:50.272 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:44:50.514 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:44:51.406 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:44:51.752 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:44:52.101 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:44:52.397 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:44:52.716 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:44:52.910 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:44:52.988 [main] pages.CartPage::getProductPrice::145 - Product 'Sauce Labs Backpack' price: 29.99
+[INFO ] 2025-06-25 06:44:53.718 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:44:56.498 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:44:56.499 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:44:57.431 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:44:57.733 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:44:58.060 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:44:58.358 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:44:58.651 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:44:58.934 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:44:59.120 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:44:59.203 [main] pages.CartPage::getProductQuantity::162 - Product 'Sauce Labs Backpack' quantity: 1
+[INFO ] 2025-06-25 06:45:00.208 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:45:02.890 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:45:02.891 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:45:03.840 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:45:04.007 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:45:04.343 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:45:04.653 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:45:04.997 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:45:05.260 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:45:05.447 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:45:05.754 [main] pages.CartPage::clickContinueShopping::179 - Clicked 'Continue Shopping' button.
+[INFO ] 2025-06-25 06:45:05.840 [main] pages.ProductsPage::isPageDisplayed::27 - Products page displayed: true
+[INFO ] 2025-06-25 06:45:07.229 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:45:09.855 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:45:09.856 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:45:10.956 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:45:11.254 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:45:11.601 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:45:11.897 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:45:12.219 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:45:12.472 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:45:12.675 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:45:12.874 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:45:12.940 [main] pages.CheckoutPage::isPageDisplayed::26 - Checkout Page displayed: true
+[INFO ] 2025-06-25 06:45:13.998 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:45:16.822 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:45:16.823 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:45:17.779 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:45:18.116 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:45:18.503 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:45:19.118 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:45:19.477 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:45:19.722 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:45:19.962 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:45:20.315 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:45:20.807 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:45:21.039 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:45:21.302 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:45:21.534 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:45:21.624 [main] pages.CheckoutOverviewPage::isPageDisplayed::29 - Checkout Overview page displayed: true
+[INFO ] 2025-06-25 06:45:22.651 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:45:25.543 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:45:25.544 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:45:26.731 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:45:27.089 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:45:27.530 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:45:27.798 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:45:28.093 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:45:28.331 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:45:28.512 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:45:28.684 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:45:28.973 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: 
+[INFO ] 2025-06-25 06:45:29.265 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:45:29.499 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:45:29.685 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:45:29.800 [main] pages.CheckoutPage::getErrorMessage::70 - Captured error message: Error: First Name is required
+[INFO ] 2025-06-25 06:45:32.199 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:45:34.754 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:45:34.755 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:45:35.863 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:45:36.137 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:45:36.598 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:45:36.847 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:45:37.145 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:45:37.424 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:45:37.610 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:45:37.782 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:45:38.054 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:45:38.248 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: 
+[INFO ] 2025-06-25 06:45:38.477 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:45:38.662 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:45:38.768 [main] pages.CheckoutPage::getErrorMessage::70 - Captured error message: Error: Last Name is required
+[INFO ] 2025-06-25 06:45:39.860 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:45:42.396 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:45:42.398 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:45:43.395 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:45:43.670 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:45:44.042 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:45:44.331 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:45:44.639 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:45:44.917 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:45:45.145 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:45:45.315 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:45:45.610 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:45:45.859 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:45:46.082 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 
+[INFO ] 2025-06-25 06:45:46.297 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:45:46.370 [main] pages.CheckoutPage::getErrorMessage::70 - Captured error message: Error: Postal Code is required
+[INFO ] 2025-06-25 06:45:47.454 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:45:50.354 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:45:50.355 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:45:51.405 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:45:51.639 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:45:52.011 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:45:52.325 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:45:52.633 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:45:52.906 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:45:53.139 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:45:53.339 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:45:53.512 [main] pages.CheckoutPage::clickCancel::91 - Clicked Cancel button on Checkout Page
+[INFO ] 2025-06-25 06:45:53.590 [main] pages.CartPage::isCartPageDisplayed::70 - Cart page is displayed: true
+[INFO ] 2025-06-25 06:45:54.406 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:45:57.080 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:45:57.080 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:45:58.403 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:45:58.634 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:45:59.044 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:45:59.297 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:45:59.642 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:45:59.935 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:46:00.184 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:46:00.390 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:46:00.644 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:46:00.983 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:46:01.272 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:46:01.503 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:46:01.762 [main] pages.CheckoutOverviewPage::clickFinish::121 - Clicked Finish button.
+[INFO ] 2025-06-25 06:46:01.835 [main] pages.CheckoutCompletePage::getSuccessMessage::56 - Success message text: Thank you for your order!
+[INFO ] 2025-06-25 06:46:02.769 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:46:05.209 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:46:05.209 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:46:05.496 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:46:06.694 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:46:07.271 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:46:07.543 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:46:07.952 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:46:08.200 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:46:08.395 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:46:08.577 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:46:08.814 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:46:09.046 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:46:09.266 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:46:09.490 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:46:09.744 [main] pages.CheckoutOverviewPage::clickFinish::121 - Clicked Finish button.
+[INFO ] 2025-06-25 06:46:09.942 [main] pages.CheckoutCompletePage::clickBackHome::72 - Clicked 'Back Home' button.
+[INFO ] 2025-06-25 06:46:10.024 [main] pages.ProductsPage::isPageDisplayed::27 - Products page displayed: true
+[INFO ] 2025-06-25 06:46:11.193 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:46:13.798 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:46:13.801 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:46:14.860 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:46:15.133 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:46:15.560 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:46:15.852 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:46:16.183 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:46:16.511 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:46:16.712 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:46:16.929 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:46:17.204 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:46:17.429 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:46:17.664 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:46:17.860 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:46:17.894 [main] pages.CheckoutOverviewPage::isProductPresent::41 - Product 'Sauce Labs Backpack' present in overview: true
+[INFO ] 2025-06-25 06:46:17.969 [main] pages.CheckoutOverviewPage::getProductPrice::65 - Product 'Sauce Labs Backpack' price: 29.99
+[INFO ] 2025-06-25 06:46:18.055 [main] pages.CheckoutOverviewPage::getProductQuantity::77 - Product 'Sauce Labs Backpack' quantity: 1
+[INFO ] 2025-06-25 06:46:18.734 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:46:21.736 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:46:21.737 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:46:22.786 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:46:23.009 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:46:23.340 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:46:23.592 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:46:23.873 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:46:24.138 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:46:24.338 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:46:24.581 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:46:24.851 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:46:25.094 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:46:25.305 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:46:25.484 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:46:25.557 [main] pages.CheckoutOverviewPage::getTaxInformation::110 - Tax: 2.40
+[INFO ] 2025-06-25 06:46:26.603 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:46:29.270 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:46:29.270 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:46:30.123 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:46:30.224 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:46:30.659 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:46:31.005 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:46:31.364 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:46:31.683 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:46:31.915 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:46:32.117 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:46:32.359 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:46:32.587 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:46:32.825 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:46:33.054 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:46:33.119 [main] pages.CheckoutOverviewPage::getSubTotalInformation::88 - Subtotal: 29.99
+[INFO ] 2025-06-25 06:46:33.844 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:46:36.408 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:46:36.409 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:46:37.437 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:46:37.672 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:46:38.080 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:46:38.364 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:46:38.685 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:46:38.954 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:46:39.134 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:46:39.326 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:46:39.541 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:46:39.759 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:46:39.979 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:46:40.196 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:46:40.293 [main] pages.CheckoutOverviewPage::getTotalInformation::99 - Total: 32.39
+[INFO ] 2025-06-25 06:46:41.292 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:46:43.678 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:46:43.678 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:46:44.781 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:46:45.062 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:46:45.422 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:46:45.679 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:46:46.024 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:46:46.329 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:46:46.542 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:46:46.735 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:46:46.999 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:46:47.224 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:46:47.470 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:46:47.664 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:46:47.864 [main] pages.CheckoutOverviewPage::clickCancel::131 - Clicked Cancel button.
+[INFO ] 2025-06-25 06:46:47.958 [main] pages.ProductsPage::isPageDisplayed::27 - Products page displayed: true
+[INFO ] 2025-06-25 06:46:49.140 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:46:51.840 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:46:51.840 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:46:52.132 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:46:53.282 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:46:53.678 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:46:53.966 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:46:54.276 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:46:54.555 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:46:54.855 [main] pages.NavigationBar::clickCartButton::77 - Clicked Cart button
+[INFO ] 2025-06-25 06:46:55.102 [main] pages.CartPage::clickCheckout::195 - Clicked 'Checkout' button.
+[INFO ] 2025-06-25 06:46:55.370 [main] pages.CheckoutPage::enterFirstName::38 - Entered first name: John
+[INFO ] 2025-06-25 06:46:55.623 [main] pages.CheckoutPage::enterLastName::49 - Entered last name: Doe
+[INFO ] 2025-06-25 06:46:55.868 [main] pages.CheckoutPage::enterPostalCode::60 - Entered postal code: 12345
+[INFO ] 2025-06-25 06:46:56.119 [main] pages.CheckoutPage::clickContinue::81 - Clicked Continue button on Checkout Page
+[INFO ] 2025-06-25 06:46:56.342 [main] pages.CheckoutOverviewPage::clickFinish::121 - Clicked Finish button.
+[INFO ] 2025-06-25 06:46:56.413 [main] pages.CheckoutCompletePage::isPageDisplayed::26 - Checkout Complete page displayed: true
+[INFO ] 2025-06-25 06:46:57.452 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:46:59.792 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:46:59.793 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:47:01.328 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:47:01.634 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:02.019 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:47:02.287 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:47:02.576 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:47:02.761 [main] pages.ProductsPage::isPageDisplayed::27 - Products page displayed: true
+[INFO ] 2025-06-25 06:47:03.545 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:47:06.463 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:47:06.464 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:47:07.549 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:47:07.802 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:08.127 [main] pages.LoginPage::enterUsername::35 - Entered username: invalid_user
+[INFO ] 2025-06-25 06:47:08.399 [main] pages.LoginPage::enterPassword::46 - Entered password: wrong_pass
+[INFO ] 2025-06-25 06:47:08.597 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:47:08.668 [main] pages.LoginPage::getErrorMessage::66 - Captured login error message: Epic sadface: Username and password do not match any user in this service
+[INFO ] 2025-06-25 06:47:09.599 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:47:12.238 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:47:12.239 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:47:13.387 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:47:13.632 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:14.054 [main] pages.LoginPage::enterUsername::35 - Entered username: locked_out_user
+[INFO ] 2025-06-25 06:47:14.297 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:47:14.490 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:47:14.563 [main] pages.LoginPage::getErrorMessage::66 - Captured login error message: Epic sadface: Sorry, this user has been locked out.
+[INFO ] 2025-06-25 06:47:15.804 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:47:18.595 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:47:18.596 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:47:18.812 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:47:19.830 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:20.119 [main] pages.LoginPage::enterUsername::35 - Entered username: 
+[INFO ] 2025-06-25 06:47:20.337 [main] pages.LoginPage::enterPassword::46 - Entered password: 
+[INFO ] 2025-06-25 06:47:20.525 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:47:20.599 [main] pages.LoginPage::getErrorMessage::66 - Captured login error message: Epic sadface: Username is required
+[INFO ] 2025-06-25 06:47:21.417 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:47:24.235 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:47:24.236 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:47:25.405 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:47:25.568 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:26.087 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:47:26.332 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:47:26.710 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:47:26.935 [main] pages.NavigationBar::clickMenuButton::24 - Clicked Menu button
+[INFO ] 2025-06-25 06:47:27.523 [main] pages.NavigationBar::isLogoutLinkDisplayed::44 - Logout link displayed: true
+[INFO ] 2025-06-25 06:47:28.500 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:47:30.859 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:47:30.860 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:47:32.288 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:47:32.468 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:32.966 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:47:33.264 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:47:33.538 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:47:33.792 [main] pages.NavigationBar::clickMenuButton::24 - Clicked Menu button
+[INFO ] 2025-06-25 06:47:34.487 [main] pages.NavigationBar::clickLogoutLink::34 - Clicked Logout link
+[INFO ] 2025-06-25 06:47:34.532 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:35.436 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:47:38.143 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:47:38.143 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:47:39.062 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:47:39.161 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:39.617 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:47:39.900 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:47:40.198 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:47:40.562 [main] pages.ProductsPage::clickProductName::51 - Clicked product name: Sauce Labs Backpack
+[INFO ] 2025-06-25 06:47:40.637 [main] pages.ProductDetailPage::getProductName::34 - Product name: Sauce Labs Backpack
+[INFO ] 2025-06-25 06:47:41.597 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:47:44.372 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:47:44.373 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:47:45.367 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:47:45.664 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:46.114 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:47:46.372 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:47:46.669 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:47:47.052 [main] pages.ProductsPage::clickProductName::51 - Clicked product name: Sauce Labs Backpack
+[INFO ] 2025-06-25 06:47:47.182 [main] pages.ProductDetailPage::getProductDescription::45 - Product description: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[INFO ] 2025-06-25 06:47:48.267 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:47:50.553 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:47:50.554 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:47:51.593 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:47:51.962 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:52.445 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:47:52.745 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:47:53.077 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:47:53.459 [main] pages.ProductsPage::clickProductName::51 - Clicked product name: Sauce Labs Backpack
+[INFO ] 2025-06-25 06:47:53.588 [main] pages.ProductDetailPage::getProductPrice::56 - Product price: 29.99
+[INFO ] 2025-06-25 06:47:54.380 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:47:57.225 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:47:57.225 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:47:58.250 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:47:58.328 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:47:58.712 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:47:58.964 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:47:59.317 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:47:59.511 [main] pages.ProductsPage::isProductPresent::39 - Product 'Sauce Labs Backpack' present on Products page: true
+[INFO ] 2025-06-25 06:48:00.527 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:48:03.256 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:48:03.256 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:48:04.259 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:48:04.604 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:48:04.933 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:48:05.170 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:48:05.437 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:48:05.838 [main] pages.ProductsPage::clickProductName::51 - Clicked product name: Sauce Labs Backpack
+[INFO ] 2025-06-25 06:48:05.960 [main] pages.ProductDetailPage::getProductName::34 - Product name: Sauce Labs Backpack
+[INFO ] 2025-06-25 06:48:06.783 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:48:09.644 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:48:09.644 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:48:10.594 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:48:10.937 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:48:11.347 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:48:11.604 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:48:11.881 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:48:12.075 [main] pages.ProductsPage::getProductDescription::62 - Description for 'Sauce Labs Backpack': carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[INFO ] 2025-06-25 06:48:13.036 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:48:15.488 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:48:15.490 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:48:16.499 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:48:16.697 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:48:17.052 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:48:17.369 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:48:17.695 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:48:17.835 [main] pages.ProductsPage::getProductPrice::74 - Price for 'Sauce Labs Backpack': 29.99
+[INFO ] 2025-06-25 06:48:19.759 [main] factory.DriverFactory::intializeDriver::23 - Initializing WebDriver for browser: Chrome
+[INFO ] 2025-06-25 06:48:22.408 [main] factory.DriverFactory::intializeDriver::48 - Driver initialized and configured successfully.
+[INFO ] 2025-06-25 06:48:22.410 [main] hooks.CucumberHooks::setup::27 - Chrome browser launched successfully.
+[INFO ] 2025-06-25 06:48:23.425 [main] hooks.CucumberHooks::setup::29 - Navigating to url: https://www.saucedemo.com/
+[INFO ] 2025-06-25 06:48:23.485 [main] pages.LoginPage::isPageDisplayed::23 - Login page is displayed: true
+[INFO ] 2025-06-25 06:48:23.959 [main] pages.LoginPage::enterUsername::35 - Entered username: standard_user
+[INFO ] 2025-06-25 06:48:24.278 [main] pages.LoginPage::enterPassword::46 - Entered password: secret_sauce
+[INFO ] 2025-06-25 06:48:24.587 [main] pages.LoginPage::clickLoginButton::56 - Clicked Login button
+[INFO ] 2025-06-25 06:48:24.814 [main] pages.ProductsPage::addProductToCart::86 - Added product 'Sauce Labs Backpack' to cart.
+[INFO ] 2025-06-25 06:48:24.892 [main] pages.NavigationBar::getCartCount::55 - Cart badge count: 1
