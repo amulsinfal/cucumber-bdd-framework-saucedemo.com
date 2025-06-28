@@ -196,7 +196,7 @@ Hooks are defined in a separate 'Hooks.java' class and help with:
 Hook classes are saved under following path : ['cucumber-bdd-framework-saucedemo.com/src/test/java/hooks/'](src/test/java/hooks)
 <img width="500" alt="" src="https://github.com/user-attachments/assets/f0975ac6-5350-4375-b2bf-da781959859a">
 
-📄 View source: ['cucumber-bdd-framework-saucedemo.com/src/test/java/hooks/Hooks.java'](src/test/java/hooks/CucumberHooks.java)
+📄 View source: ['cucumber-bdd-framework-saucedemo.com/src/test/java/hooks/CucumberHooks.java'](src/test/java/hooks/CucumberHooks.java)
 
 
 ## 🚀 Test Runner
